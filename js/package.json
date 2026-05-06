@@ -1,0 +1,22 @@
+{
+  "name": "browserless-langchain-examples-js",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "LangChain (JS) examples for the Browserless MCP server",
+  "scripts": {
+    "quickstart": "tsx quickstart.ts",
+    "research": "tsx research_agent.ts",
+    "browser": "tsx browser_agent.ts"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "*",
+    "@langchain/langgraph": "*",
+    "@langchain/mcp-adapters": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "tsx": "*",
+    "typescript": "*"
+  }
+}

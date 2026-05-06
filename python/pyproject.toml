@@ -1,0 +1,15 @@
+[project]
+name = "browserless-langchain-examples"
+version = "0.1.0"
+description = "LangChain examples for the Browserless MCP server"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-mcp-adapters",
+    "langgraph",
+    "langchain-anthropic",
+    "ipykernel",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

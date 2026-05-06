@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.executed.ipynb
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
