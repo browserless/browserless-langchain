@@ -4,8 +4,8 @@ Runnable JS examples for the Browserless MCP server, using `@langchain/mcp-adapt
 
 ## Setup
 
-Use Node.js **26.x** for development, selected by the root `.node-version`.
-With nvm, run `nvm install "$(cat .node-version)" && nvm use "$(cat .node-version)"`
+Use Node.js **26.x** for development, selected by the root `.nvmrc`.
+With nvm, run `nvm install && nvm use`
 from the repository root, then enter `js/`. These reusable examples are also
 validated on Node.js 22.x and 24.x for consumers using those supported LTS lines;
 the development version does not impose a new runtime minimum.
