@@ -4,6 +4,12 @@ Runnable JS examples for the Browserless MCP server, using `@langchain/mcp-adapt
 
 ## Setup
 
+Use Node.js **26.13.0** for these examples. From the repository root, run
+`nvm install && nvm use`, then enter `js/`. The root `.nvmrc` applies only to
+the JavaScript examples; the Python notebooks do not use Node.js.
+On Linux, the official Node.js binary requires `libatomic.so.1`
+(`libatomic1` on Debian/Ubuntu).
+
 ```bash
 npm install
 export BROWSERLESS_TOKEN=<your-token>
